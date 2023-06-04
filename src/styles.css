@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url(./assets/fondo4.jpg);
+    color: azure;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}

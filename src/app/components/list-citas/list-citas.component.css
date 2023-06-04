@@ -1,0 +1,32 @@
+.back{
+    background-color: azure;
+    height: 100%;
+    width: 100%;
+    color: rgb(1, 12, 28);
+    text-align: center;
+    border-radius: .5rem;
+    opacity: .6;
+}
+li{
+    font-size: 1rem;
+    text-align: start;
+    padding: 1rem;
+}
+
+button{
+    background-color: rgb(213, 10, 10);
+    color: azure;
+    margin: 1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+}
+
+.turno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    margin-top: 1rem;
+}

@@ -1,0 +1,28 @@
+.back{
+    background-color: azure;
+    height: 100%;
+    width: 100%;
+    color: rgb(1, 12, 28);
+    text-align: center;
+    border-radius: .5rem;
+    opacity: .6;
+    margin-bottom: 1rem;
+}
+
+label{
+    font-size: 1rem;
+    text-align: start;
+}
+
+.contenedorForm{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: stretch;
+    width: 100%;
+    font-size: 1rem;
+}
+.mensaje{
+    color:azure;
+    border-radius: .5rem;
+}

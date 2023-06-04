@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="contenedorForm back">
+        <div class="turno">
+            <h1 class="mt-3">Listado de Turnos</h1>
+            <div class="card" style="width: 18rem;" *ngFor="let item of citas; let i=index">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">{{item._nombre}}</li>
+                  <li class="list-group-item">{{item._fecha}}</li>
+                  <li class="list-group-item">{{item._hora}}</li>
+                  <li class="list-group-item">{{item._sintomas}}</li>
+                  <button (click)="deleteCita(i, item._nombre)">Eliminar</button>
+                </ul>
+            </div>
+            
+        </div>
+        
+    </div>
+</div>

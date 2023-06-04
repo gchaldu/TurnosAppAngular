@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="contenedorForm back">
+        <h1>Turno</h1>
+        <div id="mensaje" class="mensaje">
+        </div>
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input class="form-control" type="text" id="nombre" placeholder="Nombre completo"
+                [(ngModel)]="nombre">
+        </div>
+        <div class="form-group">
+            <label for="fecha">Fecha</label>
+            <input class="form-control" type="date" id="fecha" placeholder="Ingrese la fecha" [(ngModel)]="fecha">
+        </div>
+        <div class="form-group">
+            <label for="hora">Hora</label>
+            <input class="form-control" type="time" id="hora" placeholder="Nombre completo" [(ngModel)]="hora">
+        </div>
+        <div class="form-group">
+            <label for="nombre">Sintomas</label>
+            <textarea class="form-control" rows="4" cols="50" id="sintomas" [(ngModel)]="sintomas">
+                Ingrese sus sintomas
+        </textarea>
+        </div>
+        <button class="btn" (click)="crearCita()">Crear Cita</button>
+    </div>
+</div>

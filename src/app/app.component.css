@@ -1,0 +1,9 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+    opacity: .7;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
